@@ -1,0 +1,88 @@
+/* CompareByCompany — the Home "Compare a rental company by name" slider.
+   Component-specific styles only; shared tokens/shells live in app/globals.css. */
+
+.cmp-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+}
+.cmp-head > div:first-child { max-width: 760px; }
+.cmp-note { margin-top: 10px; font-size: 13.5px; }
+
+.cmp-nav { display: flex; gap: 10px; flex: none; padding-top: 6px; }
+.cmp-arrow {
+  width: 44px; height: 44px; border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--white);
+  color: var(--ink);
+  display: inline-flex; align-items: center; justify-content: center;
+  cursor: pointer;
+  transition: border-color .15s ease, background .15s ease, transform .1s ease;
+}
+.cmp-arrow svg { stroke: currentColor; }
+.cmp-arrow:hover { border-color: var(--green-ink); color: var(--green-ink); }
+.cmp-arrow:active { transform: scale(.96); }
+
+.cmp-track {
+  display: flex;
+  gap: 18px;
+  margin-top: 26px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  padding: 4px 4px 12px;
+  scrollbar-width: none;
+}
+.cmp-track::-webkit-scrollbar { display: none; }
+
+.cmp-card {
+  scroll-snap-align: start;
+  flex: 0 0 300px;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 22px;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--r);
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 1px 2px rgba(16, 24, 32, .04);
+  transition: border-color .15s ease, box-shadow .15s ease, transform .12s ease;
+}
+.cmp-card:hover {
+  border-color: var(--green-line);
+  box-shadow: var(--shadow);
+  transform: translateY(-2px);
+}
+
+.cmp-badge {
+  flex: none;
+  width: 52px; height: 52px;
+  border-radius: 13px;
+  background: var(--midnight);
+  color: var(--lime);
+  font-family: var(--f-d);
+  font-weight: 700;
+  font-size: 22px;
+  display: inline-flex; align-items: center; justify-content: center;
+}
+
+.cmp-body { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.cmp-name { font-family: var(--f-d); font-weight: 700; font-size: 18px; color: var(--ink); }
+.cmp-blurb {
+  color: var(--muted);
+  font-size: 14.5px;
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media (max-width: 720px) {
+  .cmp-head { flex-direction: column; }
+  .cmp-nav { display: none; }
+  .cmp-card { flex-basis: 82%; }
+}

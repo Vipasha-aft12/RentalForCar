@@ -1,6 +1,7 @@
 import { getPageMeta } from '@/lib/seo';
 import JsonLd from '@/components/common/JsonLd/JsonLd';
 import CarRentalAcrossTheUnitedStates from '@/components/Home/CarRentalAcrossTheUnitedStates/CarRentalAcrossTheUnitedStates';
+import CompareByCompany from '@/components/Home/CompareByCompany/CompareByCompany';
 import NoCounterSurprises from '@/components/Home/NoCounterSurprises/NoCounterSurprises';
 import HowItWorks from '@/components/Home/HowItWorks/HowItWorks';
 import ChooseTheRide from '@/components/Home/ChooseTheRide/ChooseTheRide';
@@ -19,6 +20,7 @@ export default function HomePage() {
   return (
     <main>
       <CarRentalAcrossTheUnitedStates />
+      <CompareByCompany />
       <NoCounterSurprises />
       <HowItWorks />
       <ChooseTheRide />
