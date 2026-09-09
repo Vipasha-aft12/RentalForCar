@@ -1,0 +1,17 @@
+.hd{position:sticky;top:0;z-index:40;background:rgba(247,244,237,.86);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.hd .wrap{display:flex;align-items:center;gap:20px;min-height:70px}
+.brand{display:flex;align-items:center;gap:11px;text-decoration:none}
+.brand .word{font-family:var(--f-d);font-weight:700;font-size:20px;letter-spacing:-.02em;color:var(--ink)}
+.brand .word i{font-style:normal;color:var(--green-ink)}
+.nav{display:flex;gap:26px;margin-left:8px}
+.nav a{color:var(--charcoal);text-decoration:none;font-weight:500;font-size:15px}
+.nav a:hover{color:var(--green-ink)}
+.hd .spacer{flex:1}
+.callpill{display:inline-flex;align-items:center;gap:9px;background:var(--lime);color:var(--midnight);font-weight:700;text-decoration:none;padding:11px 18px;border-radius:999px;font-size:15.5px;white-space:nowrap;box-shadow:0 10px 24px -14px rgba(16,24,32,.55)}
+.callpill:hover{background:var(--lime-dk);color:var(--midnight)}
+.callpill svg{fill:var(--midnight)}
+@media(max-width:900px){
+  .nav{display:none}
+  .hd .callpill{display:none}   /* redundant on mobile: MobileCallBar shows the phone CTA */
+  .hd .wrap{gap:12px}
+}

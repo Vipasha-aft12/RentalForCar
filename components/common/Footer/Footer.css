@@ -1,0 +1,14 @@
+.ft{background:var(--midnight);color:#aeb9b1}
+.ft .wrap{padding:48px 22px 26px}
+.ft-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:30px}
+.ft .word{font-family:var(--f-d);font-weight:700;font-size:19px;color:var(--ivory)}
+.ft .word i{color:var(--lime);font-style:normal}
+.ft h4{color:#fff;font-size:.82rem;letter-spacing:.1em;text-transform:uppercase;margin:0 0 12px}
+.ft a{color:#c5d0c9;text-decoration:none;display:block;padding:4px 0;font-size:.94rem}
+.ft a:hover{color:var(--lime)}
+.ft .thesis{max-width:38ch;font-size:.94rem;color:#aeb9b1}
+.ft .fcall{color:var(--lime);font-family:var(--f-n);font-weight:700;text-decoration:none;font-size:1.1rem;display:inline-block;margin:8px 0 4px}
+.ft-legal{border-top:1px solid rgba(255,255,255,.12);margin-top:30px;padding-top:18px;font-size:.82rem;color:#8b978e}
+@media(max-width:900px){
+  .ft-grid{grid-template-columns:1fr 1fr}
+}

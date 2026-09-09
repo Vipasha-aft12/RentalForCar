@@ -1,0 +1,11 @@
+import { ALL_PATHS, SITE_URL } from '@/lib/seo';
+
+export default function sitemap() {
+  const now = new Date();
+  return ALL_PATHS.map((p) => ({
+    url: SITE_URL + p,
+    lastModified: now,
+    changeFrequency: p === '/' ? 'weekly' : 'monthly',
+    priority: p === '/' ? 1 : 0.7,
+  }));
+}

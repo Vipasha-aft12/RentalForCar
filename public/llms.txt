@@ -1,0 +1,35 @@
+# RentalForCar
+> Independent US car rental booking agent. We confirm the card, deposit, age and document rules at your exact pick-up counter before you book, and quote the all-in total.
+
+Operated by Affluence Tour and Travels LLC, Cheyenne, WY. Phone +1 (855) 761-9153.
+
+## Key pages
+- Car Rental in the USA, Booked by Real People | RentalForCar: /
+- Find a Rental Car in the USA | RentalForCar: /find-a-car/
+- Airport Car Rental Guides (USA) | RentalForCar: /car-rental/
+- LAX Car Rental — Los Angeles Airport | RentalForCar: /car-rental/lax-airport/
+- Las Vegas Airport Car Rental (LAS) | RentalForCar: /car-rental/las-vegas-airport/
+- Miami Airport Car Rental (MIA) | RentalForCar: /car-rental/miami-airport/
+- Orlando Airport Car Rental (MCO) | RentalForCar: /car-rental/orlando-airport/
+- Denver Airport Car Rental (DEN) | RentalForCar: /car-rental/denver-airport/
+- Rental Car Types — Economy to Vans | RentalForCar: /vehicles/
+- Car Rental Requirements (USA) | RentalForCar: /rental-requirements/
+- Car Rental With a Debit Card | RentalForCar: /car-rental-with-debit-card/
+- Car Rental With No Credit Card | RentalForCar: /car-rental-no-credit-card/
+- Car Rental Deposit Requirements | RentalForCar: /car-rental-deposit-requirements/
+- Extend a Car Rental | RentalForCar: /car-rental-extension/
+- Under-25 Car Rental (Young Drivers) | RentalForCar: /under-25-car-rental/
+- Deposit & Payment Policy | RentalForCar: /deposit-and-payment-policy/
+- Cargo Van Rental (USA) | RentalForCar: /cargo-van-rental/
+- Passenger Van Rental — 7 to 15 Seats | RentalForCar: /passenger-van-rental/
+- Wheelchair-Accessible Van Rental | RentalForCar: /accessible-van-rental/
+- Long-Term Car Rental (28+ Days) | RentalForCar: /long-term-car-rental/
+- Monthly Car Rental (USA) | RentalForCar: /monthly-car-rental/
+- About Us — Independent Car Rental Agency | RentalForCar: /about/
+- How We Work — Independent Booking Agent | RentalForCar: /how-we-work/
+- Contact Us — Talk to a Real Person | RentalForCar: /contact/
+- Accessibility | RentalForCar: /accessibility/
+- Cancellation & Refunds | RentalForCar: /cancellation-and-refunds/
+- Privacy Policy | RentalForCar: /privacy-policy/
+- Terms & Conditions | RentalForCar: /terms-and-conditions/
+- Sitemap | RentalForCar: /sitemap/
