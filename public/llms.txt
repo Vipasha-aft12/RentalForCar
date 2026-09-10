@@ -1,7 +1,7 @@
 # RentalForCar
 > Independent US car rental booking agent. We confirm the card, deposit, age and document rules at your exact pick-up counter before you book, and quote the all-in total.
 
-Operated by Affluence Tour and Travels LLC, Cheyenne, WY. Phone +1 (855) 761-9153.
+Operated by Affluence Hospitality LLC, Cheyenne, WY. Phone +1 (855) 761-9153.
 
 ## Key pages
 - Car Rental in the USA, Booked by Real People | RentalForCar: /

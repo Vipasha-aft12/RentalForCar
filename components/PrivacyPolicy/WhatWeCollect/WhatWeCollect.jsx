@@ -32,7 +32,7 @@ export default function WhatWeCollect() {
           .
         </p>
         <p className="muted">
-          RentalForCar is operated by Affluence Tour and Travels LLC. This page is a general summary, not legal advice.
+          RentalForCar is operated by Affluence Hospitality LLC. This page is a general summary, not legal advice.
         </p>
       </div>
     </section>

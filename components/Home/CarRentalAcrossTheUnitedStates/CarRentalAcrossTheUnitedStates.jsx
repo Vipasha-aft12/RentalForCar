@@ -16,7 +16,7 @@ export default function CarRentalAcrossTheUnitedStates() {
               </span>
             </h1>
             <p className="sub">
-              Book a rental with a real person who reads the counter fine print first so you collect the keys instead of arguing at the desk.
+              Book a rental with a real person who reads the counter fine print first — so you collect the keys instead of arguing at the desk.
             </p>
             <div className="cta" style={{display: 'block'}}>
                <form className="rsearch" action="/find-a-car/" method="get" role="search">

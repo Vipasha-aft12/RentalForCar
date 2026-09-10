@@ -10,7 +10,7 @@ export function generateMetadata() {
   return getPageMeta('/car-rental-hertz/');
 }
 
-const jsonLd = {"@context": "https://schema.org", "@type": "WebPage", "name": "Renting a Hertz-class car through RentalForCar", "description": "RentalForCar is an independent travel agency, not Hertz, and is not affiliated with Hertz. New rentals only.", "publisher": {"@type": "Organization", "name": "RentalForCar", "parentOrganization": {"@type": "Organization", "name": "Affluence Tour and Travels LLC"}}};
+const jsonLd = {"@context": "https://schema.org", "@type": "WebPage", "name": "Renting a Hertz-class car through RentalForCar", "description": "RentalForCar is an independent travel agency, not Hertz, and is not affiliated with Hertz. New rentals only.", "publisher": {"@type": "Organization", "name": "RentalForCar", "parentOrganization": {"@type": "Organization", "name": "Affluence Hospitality LLC"}}};
 
 export default function CarRentalHertzPage() {
   return (

@@ -7,7 +7,7 @@ export default function OurRole() {
           Our role
         </h2>
         <p>
-          RentalForCar is an independent travel agency and booking agent operated by Affluence Tour and Travels LLC. We arrange car rentals with third-party rental companies. We are not a rental car company, we do not own a fleet, and we are not affiliated with any rental brand.
+          RentalForCar is an independent travel agency and booking agent operated by Affluence Hospitality LLC. We arrange car rentals with third-party rental companies. We are not a rental car company, we do not own a fleet, and we are not affiliated with any rental brand.
         </p>
         <h2>
           Bookings and payment
@@ -34,7 +34,7 @@ export default function OurRole() {
           To the extent permitted by law, RentalForCar is not liable for the acts of the rental company or for losses outside our reasonable control.
         </p>
         <p className="muted">
-          Operated by Affluence Tour and Travels LLC, 1621 Central Ave, Cheyenne, WY 82001. This page is a general summary, not legal advice.
+          Operated by Affluence Hospitality LLC, 1621 Central Ave, Cheyenne, WY 82001. This page is a general summary, not legal advice.
         </p>
       </div>
     </section>

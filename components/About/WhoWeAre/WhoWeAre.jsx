@@ -7,7 +7,7 @@ export default function WhoWeAre() {
           Who we are
         </h2>
         <p>
-          RentalForCar is an independent car rental agency operated by Affluence Tour and Travels LLC, based in Cheyenne, Wyoming. We arrange rentals with established rental companies across the United States. We don’t own a fleet and we don’t run a counter — which is exactly why we can be straight with you about how each one works.
+          RentalForCar is an independent car rental agency operated by Affluence Hospitality LLC, based in Cheyenne, Wyoming. We arrange rentals with established rental companies across the United States. We don’t own a fleet and we don’t run a counter — which is exactly why we can be straight with you about how each one works.
         </p>
         <h2>
           Why we exist

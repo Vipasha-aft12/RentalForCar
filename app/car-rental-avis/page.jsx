@@ -10,7 +10,7 @@ export function generateMetadata() {
   return getPageMeta('/car-rental-avis/');
 }
 
-const jsonLd = {"@context": "https://schema.org", "@type": "WebPage", "name": "Renting a Avis-class car through RentalForCar", "description": "RentalForCar is an independent travel agency, not Avis, and is not affiliated with Avis. New rentals only.", "publisher": {"@type": "Organization", "name": "RentalForCar", "parentOrganization": {"@type": "Organization", "name": "Affluence Tour and Travels LLC"}}};
+const jsonLd = {"@context": "https://schema.org", "@type": "WebPage", "name": "Renting a Avis-class car through RentalForCar", "description": "RentalForCar is an independent travel agency, not Avis, and is not affiliated with Avis. New rentals only.", "publisher": {"@type": "Organization", "name": "RentalForCar", "parentOrganization": {"@type": "Organization", "name": "Affluence Hospitality LLC"}}};
 
 export default function CarRentalAvisPage() {
   return (

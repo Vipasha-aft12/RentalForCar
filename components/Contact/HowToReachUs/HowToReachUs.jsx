@@ -40,7 +40,7 @@ export default function HowToReachUs() {
           Company
         </h2>
         <p>
-          RentalForCar is operated by Affluence Tour and Travels LLC, 1621 Central Ave, Cheyenne, WY 82001.
+          RentalForCar is operated by Affluence Hospitality LLC, 1621 Central Ave, Cheyenne, WY 82001.
         </p>
         <h2>
           What to have ready

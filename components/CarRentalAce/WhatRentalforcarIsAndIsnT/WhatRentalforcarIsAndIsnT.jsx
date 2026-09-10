@@ -37,7 +37,7 @@ export default function WhatRentalforcarIsAndIsnT() {
           What RentalForCar is — and isn’t
         </h2>
         <p>
-          RentalForCar is an independent car-rental booking agent operated by Affluence Tour and Travels LLC. We are not Ace, we don’t own a fleet, and we are not affiliated with or endorsed by Ace or any other rental brand. We help travellers arrange new rentals and get the counter rules right before they fly.
+          RentalForCar is an independent car-rental booking agent operated by Affluence Hospitality LLC. We are not Ace, we don’t own a fleet, and we are not affiliated with or endorsed by Ace or any other rental brand. We help travellers arrange new rentals and get the counter rules right before they fly.
         </p>
         <div className="pull">
           <b>

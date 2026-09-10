@@ -84,7 +84,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="ft-legal">
-          RentalForCar is an independent car rental agency and booking agent operated by Affluence Tour and Travels LLC, 1621 Central Ave, Cheyenne, WY 82001. We are not a rental car company, we do not own or operate a vehicle fleet, and we are not affiliated with or endorsed by any rental brand. Any amount paid to RentalForCar at booking is applied toward your rental; deposits and local charges are handled by the rental company at the counter.
+          RentalForCar is an independent car rental agency and booking agent operated by Affluence Hospitality LLC, 1621 Central Ave, Cheyenne, WY 82001. We are not a rental car company, we do not own or operate a vehicle fleet, and we are not affiliated with or endorsed by any rental brand. Any amount paid to RentalForCar at booking is applied toward your rental; deposits and local charges are handled by the rental company at the counter.
         </div>
       </div>
     </footer>

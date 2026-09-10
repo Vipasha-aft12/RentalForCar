@@ -8,25 +8,25 @@ export default function AnnounceBar() {
           <b>
             RentalForCar
           </b>
-          is an independent car rental agency operated by Affluence Tour and Travels LLC
+          is an independent car rental agency operated by Affluence Hospitality LLC
         </span>
         <span aria-hidden="true">
           <b>
             RentalForCar
           </b>
-          is an independent car rental agency operated by Affluence Tour and Travels LLC
+          is an independent car rental agency operated by Affluence Hospitality LLC
         </span>
         <span aria-hidden="true">
           <b>
             RentalForCar
           </b>
-          is an independent car rental agency operated by Affluence Tour and Travels LLC
+          is an independent car rental agency operated by Affluence Hospitality LLC
         </span>
         <span aria-hidden="true">
           <b>
             RentalForCar
           </b>
-          is an independent car rental agency operated by Affluence Tour and Travels LLC
+          is an independent car rental agency operated by Affluence Hospitality LLC
         </span>
       </div>
     </div>
