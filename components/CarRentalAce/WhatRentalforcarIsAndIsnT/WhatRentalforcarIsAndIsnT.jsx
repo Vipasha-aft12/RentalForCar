@@ -14,9 +14,7 @@ export default function WhatRentalforcarIsAndIsnT() {
           rental bookings.
         </div>
         <div className="eeat">
-          <div className="av">
-            PHOTO
-          </div>
+          
           <div className="meta">
             <b>
               RentalForCar rentals desk

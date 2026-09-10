@@ -4,9 +4,7 @@ export default function WhatSAvailable() {
     <section className="sec">
       <div className="wrap prose">
         <div className="eeat">
-          <div className="av">
-            PHOTO
-          </div>
+          
           <div className="meta">
             <b>
               RentalForCar rentals desk

@@ -139,3 +139,6 @@ a{color:var(--green-ink)}
 }
 
 .media:has(img),.car .pic:has(img){border:0;background:none;color:transparent}
+.eeat{
+  display: none;
+}

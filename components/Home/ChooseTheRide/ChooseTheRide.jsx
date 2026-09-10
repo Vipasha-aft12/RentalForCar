@@ -13,7 +13,7 @@ export default function ChooseTheRide() {
         </div>
         <div className="cars">
           <div className="car">
-            <div className="pic" data-label="Economy & Compact photo"><img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=1200&q=70" alt="Economy & Compact — RentalForCar" loading="lazy" width="1200" height="750" /></div>
+            <div className="pic" data-label="Economy & Compact photo"><img src="https://images.unsplash.com/photo-1596832323822-b6b383a0967b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZWNvbm9teSUyMGNhcnxlbnwwfHwwfHx8MA%3D%3D" alt="Economy & Compact — RentalForCar" loading="lazy" width="1200" height="750" /></div>
             <div className="bd">
               <h3>
                 Economy & Compact
@@ -24,7 +24,7 @@ export default function ChooseTheRide() {
             </div>
           </div>
           <div className="car">
-            <div className="pic" data-label="Sedan & SUV photo"><img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1200&q=70" alt="Sedan & SUV — RentalForCar" loading="lazy" width="1200" height="750" /></div>
+            <div className="pic" data-label="Sedan & SUV photo"><img src="https://images.unsplash.com/photo-1546614042-7df3c24c9e5d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2VkYW4lMjBjYXJ8ZW58MHx8MHx8fDA%3D" alt="Sedan & SUV — RentalForCar" loading="lazy" width="1200" height="750" /></div>
             <div className="bd">
               <h3>
                 Sedan & SUV
@@ -35,7 +35,7 @@ export default function ChooseTheRide() {
             </div>
           </div>
           <div className="car">
-            <div className="pic" data-label="Vans & People-movers photo"><img src="https://images.unsplash.com/photo-1774247800137-63f7e587ada9?auto=format&fit=crop&w=1200&q=70" alt="Vans & People-movers — RentalForCar" loading="lazy" width="1200" height="750" /></div>
+            <div className="pic" data-label="Vans & People-movers photo"><img src="https://images.unsplash.com/photo-1591706515036-cb0f48dc5e62?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHZhbiUyMGFuZCUyMHBlb3BsZSUyMG1vdmVyc3xlbnwwfHwwfHx8MA%3D%3D" alt="Vans & People-movers — RentalForCar" loading="lazy" width="1200" height="750" /></div>
             <div className="bd">
               <h3>
                 Vans & People-movers
