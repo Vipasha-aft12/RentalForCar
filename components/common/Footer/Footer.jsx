@@ -15,8 +15,8 @@ export default function Footer() {
             <p className="thesis">
               We book car rentals with third-party rental companies and read the counter fine print first — the card, the deposit and the age rule at your exact pick-up — so you drive away instead of arguing at the desk.
             </p>
-            <a className="fcall" href="tel:+18557619153">
-              +1 (855) 761-9153
+            <a className="fcall" href="tel:+18778516014">
+              +1 (877) 851-6014
             </a>
             <p className="thesis">
               Reservations 7 days a week ·

@@ -12,8 +12,8 @@ export default function HowToReachUs() {
               Phone
             </div>
             <div className="v">
-              <a href="tel:+18557619153">
-                +1 (855) 761-9153
+              <a href="tel:+18778516014">
+                +1 (877) 851-6014
               </a>
             </div>
           </div>

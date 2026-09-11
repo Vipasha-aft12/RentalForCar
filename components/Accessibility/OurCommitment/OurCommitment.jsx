@@ -18,8 +18,8 @@ export default function OurCommitment() {
             support@rentalforcar.com
           </a>
           or call
-          <a href="tel:+18557619153">
-            +1 (855) 761-9153
+          <a href="tel:+18778516014">
+            +1 (877) 851-6014
           </a>
           and we’ll help directly and fix it. If you’d rather not use the website at all, you can do the entire booking by phone.
         </p>

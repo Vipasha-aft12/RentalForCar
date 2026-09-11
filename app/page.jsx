@@ -14,7 +14,7 @@ export function generateMetadata() {
   return getPageMeta('/');
 }
 
-const jsonLd = {"@context": "https://schema.org", "@type": "TravelAgency", "name": "RentalForCar", "url": "https://www.rentalforcar.com/", "telephone": "+18557619153", "parentOrganization": {"@type": "Organization", "name": "Affluence Hospitality LLC"}, "address": {"@type": "PostalAddress", "streetAddress": "1621 Central Ave", "addressLocality": "Cheyenne", "addressRegion": "WY", "postalCode": "82001", "addressCountry": "US"}, "description": "Independent car rental booking agent that confirms the card, deposit, age and document rules at your exact pick-up counter before you book, and quotes the all-in total."};
+const jsonLd = {"@context": "https://schema.org", "@type": "TravelAgency", "name": "RentalForCar", "url": "https://www.rentalforcar.com/", "telephone": "+18778516014", "parentOrganization": {"@type": "Organization", "name": "Affluence Hospitality LLC"}, "address": {"@type": "PostalAddress", "streetAddress": "1621 Central Ave", "addressLocality": "Cheyenne", "addressRegion": "WY", "postalCode": "82001", "addressCountry": "US"}, "description": "Independent car rental booking agent that confirms the card, deposit, age and document rules at your exact pick-up counter before you book, and quotes the all-in total."};
 
 export default function HomePage() {
   return (
