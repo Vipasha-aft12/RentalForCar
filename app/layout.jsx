@@ -1,4 +1,5 @@
 import './globals.css';
+import Script from 'next/script';
 import { Sora, Inter, Space_Grotesk } from 'next/font/google';
 import { SITE_URL } from '@/lib/seo';
 import AnnounceBar from '@/components/common/AnnounceBar/AnnounceBar';
@@ -20,6 +21,20 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${sora.variable} ${inter.variable} ${space.variable}`}>
       <body>
+        {/* Google tag (gtag.js) — Google Ads */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-18447282767"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-18447282767');
+          `}
+        </Script>
+
         <AnnounceBar />
         <Header />
         {children}
