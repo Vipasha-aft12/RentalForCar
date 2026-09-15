@@ -26,7 +26,7 @@ export default function GettingFromTheTerminalToTheCars() {
           </div>
         </div>
         <p>
-          Where you pick up: the McCarran Rent-A-Car Center — a large consolidated facility about three miles from the terminals.
+          Where you pick up: the Harry Reid Rent-A-Car Center — a large consolidated facility about three miles from the terminals.
         </p>
         <div className="pull">
           <b>
