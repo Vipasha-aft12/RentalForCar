@@ -27,7 +27,7 @@ export default function WhatWeCollect() {
         <p>
           Ask us to access, correct or delete your information, or to stop marketing contact, by emailing <br />
           <a href="mailto:support@rentalforcar.com">
-            support@rentalforcar.com
+            support@rentalforcar.com 
           </a>
           .
         </p>
