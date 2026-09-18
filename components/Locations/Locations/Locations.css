@@ -1,0 +1,78 @@
+/* Locations hub — cities grid + airport pills. Uses the car-rental theme tokens
+   (available inside the .crx wrapper the page renders in). */
+
+.loc-intro {
+  color: var(--muted);
+  font-size: 1.05rem;
+  line-height: 1.6;
+  max-width: 620px;
+  margin: 0;
+}
+
+.loc-band { padding: clamp(36px, 4vw, 60px) 0 clamp(44px, 5vw, 72px); }
+
+.loc-h2 {
+  font-family: var(--f-d);
+  font-weight: 700;
+  font-size: clamp(1.6rem, 3vw, 2.1rem);
+  color: var(--ink);
+  margin: 0 0 22px;
+}
+.loc-h2-airports { margin-top: clamp(40px, 5vw, 64px); }
+
+/* Cities */
+.loc-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+.loc-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--white, #fff);
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg, 18px);
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color .15s ease, box-shadow .15s ease, transform .12s ease;
+}
+.loc-card:hover {
+  border-color: var(--green-line);
+  box-shadow: var(--shadow, 0 18px 40px -24px rgba(16,24,32,.3));
+  transform: translateY(-3px);
+}
+.loc-sky { display: block; width: 100%; height: 190px; }
+.loc-card-body { display: block; padding: 20px 22px 24px; }
+.loc-card-name {
+  display: block;
+  font-family: var(--f-d);
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--ink);
+  margin-bottom: 8px;
+}
+.loc-card-blurb { display: block; color: var(--muted); line-height: 1.55; }
+
+/* Airport pills */
+.loc-pills { display: flex; flex-wrap: wrap; gap: 12px; }
+.loc-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 11px 18px;
+  border-radius: 999px;
+  border: 1px solid var(--green-line);
+  background: var(--mint-soft, #f1f5e8);
+  color: var(--ink);
+  font-weight: 600;
+  font-size: .95rem;
+  text-decoration: none;
+  transition: background .15s ease, border-color .15s ease, transform .1s ease;
+}
+.loc-pill:hover { background: var(--lime); border-color: var(--lime-dk, #b6e84f); transform: translateY(-1px); }
+
+.loc-note { margin-top: clamp(32px, 4vw, 48px); color: var(--muted); line-height: 1.6; }
+.loc-note a { color: var(--ink); font-weight: 600; }
+
+@media (max-width: 900px) { .loc-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 620px) { .loc-grid { grid-template-columns: 1fr; } .loc-sky { height: 160px; } }

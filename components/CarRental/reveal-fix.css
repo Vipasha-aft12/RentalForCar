@@ -1,0 +1,7 @@
+/* The car-rental theme hides .reveal / media until its JS runs. Since the new-design
+   pages now use the site's old chrome (no theme JS), force that content visible so nothing
+   can disappear — guaranteed, no JS dependency. */
+.crx .reveal { opacity: 1 !important; transform: none !important; }
+.crx .media img,
+.crx .hero-still,
+.crx .hero-video { opacity: 1 !important; }

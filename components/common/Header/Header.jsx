@@ -25,7 +25,7 @@ export default function Header() {
           <a href="/vehicles/">
             Vehicles
           </a>
-          <a href="/car-rental/">
+          <a href="/locations/">
             Airports
           </a>
           <a href="/rental-requirements/">
