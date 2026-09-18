@@ -1,12 +1,12 @@
 import './Locations.css';
 
 const CITIES = [
-  { slug: 'new-york', name: 'New York', blurb: 'Garage costs, bridge tolls and the outer-borough alternative.' },
-  { slug: 'miami', name: 'Miami', blurb: 'SunPass, causeways and the run down to the Keys.' },
-  { slug: 'orlando', name: 'Orlando', blurb: 'Theme park parking and getting I-4 right.' },
-  { slug: 'los-angeles', name: 'Los Angeles', blurb: 'Freeways, street cleaning and the coastal drives.' },
-  { slug: 'las-vegas', name: 'Las Vegas', blurb: 'Resort parking fees and desert day trips.' },
-  { slug: 'chicago', name: 'Chicago', blurb: 'I-PASS, winter driving and the lakefront route.' },
+  { slug: 'new-york',    name: 'New York',    blurb: 'Garage costs, bridge tolls and the outer-borough alternative.', image: 'https://images.unsplash.com/photo-1496588152823-86ff7695e68f?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmV3JTIweW9ya3xlbnwwfHwwfHx8MA%3D%3D' },
+  { slug: 'miami',       name: 'Miami',       blurb: 'SunPass, causeways and the run down to the Keys.',               image: 'https://plus.unsplash.com/premium_photo-1697730215093-baeae8060bfe?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWlhbWl8ZW58MHx8MHx8fDA%3D' },
+  { slug: 'orlando',     name: 'Orlando',     blurb: 'Theme park parking and getting I-4 right.',                      image: 'https://media.istockphoto.com/id/2271728724/photo/house-of-the-blackheads-at-golden-sunset-in-riga-with-copy-space.webp?a=1&b=1&s=612x612&w=0&k=20&c=dWTuFZQ8UAWc6ypmN1FXlzqT3ozXgUtHzY56CcatiLk=' },
+  { slug: 'los-angeles', name: 'Los Angeles', blurb: 'Freeways, street cleaning and the coastal drives.',             image: 'https://images.unsplash.com/photo-1649080832349-06b15253c27c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bG9zJTIwYW5nbGVzfGVufDB8fDB8fHww' },
+  { slug: 'las-vegas',   name: 'Las Vegas',   blurb: 'Resort parking fees and desert day trips.',                     image: 'https://images.unsplash.com/photo-1577334928618-2ff2bf09e827?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bGFzJTIwdmVnYXN8ZW58MHx8MHx8fDA%3D' },
+  { slug: 'chicago',     name: 'Chicago',     blurb: 'I-PASS, winter driving and the lakefront route.',               image: 'https://images.unsplash.com/photo-1494522855154-9297ac14b55f?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2hpY2Fnb3xlbnwwfHwwfHx8MA%3D%3D' },
 ];
 
 const AIRPORTS = [
@@ -17,27 +17,6 @@ const AIRPORTS = [
   ['sat', 'SAT', 'San Antonio'], ['sea', 'SEA', 'Seattle'], ['ord', 'ORD', 'Chicago'],
   ['aus', 'AUS', 'Austin'], ['bos', 'BOS', 'Boston'], ['sjc', 'SJC', 'San Jose'],
 ];
-
-function Skyline() {
-  return (
-    <svg className="loc-sky" viewBox="0 0 320 150" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
-      <rect width="320" height="150" fill="#14181c" />
-      <g fill="#1f262c">
-        <rect x="18" y="70" width="34" height="80" /><rect x="60" y="48" width="30" height="102" />
-        <rect x="98" y="88" width="26" height="62" /><rect x="132" y="34" width="34" height="116" />
-        <rect x="174" y="76" width="28" height="74" /><rect x="210" y="58" width="32" height="92" />
-        <rect x="250" y="86" width="26" height="64" /><rect x="284" y="66" width="26" height="84" />
-      </g>
-      <g fill="#C7F36B">
-        <rect x="28" y="86" width="8" height="8" /><rect x="70" y="64" width="8" height="8" />
-        <rect x="70" y="92" width="8" height="8" /><rect x="140" y="50" width="8" height="8" />
-        <rect x="140" y="78" width="8" height="8" /><rect x="182" y="94" width="8" height="8" />
-        <rect x="220" y="74" width="8" height="8" /><rect x="292" y="82" width="8" height="8" />
-      </g>
-      <rect x="0" y="146" width="320" height="4" fill="#2a3238" />
-    </svg>
-  );
-}
 
 export default function Locations() {
   return (
@@ -57,11 +36,18 @@ export default function Locations() {
 
       <section className="loc-band">
         <div className="wrap">
-          <h2 className="loc-h2">Cities</h2>
-          <div className="loc-grid">
+          <h2 className="loc-h2">Cities</h2> <br />
+          <div className="loc-grid mt-3 mb-3">
             {CITIES.map((c) => (
               <a key={c.slug} className="loc-card" href={`/car-rental/${c.slug}/`}>
-                <Skyline />
+                <img
+                  className="loc-sky"
+                  src={c.image}
+                  alt={`${c.name} — RentalForCar`}
+                  loading="lazy"
+                  width="320"
+                  height="190"
+                />
                 <span className="loc-card-body">
                   <span className="loc-card-name">{c.name}</span>
                   <span className="loc-card-blurb">{c.blurb}</span>
@@ -69,8 +55,8 @@ export default function Locations() {
               </a>
             ))}
           </div>
-
-          <h2 className="loc-h2 loc-h2-airports">Airports</h2>
+            <br />
+          <h2 className="loc-h2 loc-h2-airports">Airports</h2> <br />
           <div className="loc-pills">
             {AIRPORTS.map(([slug, code, city]) => (
               <a key={slug} className="loc-pill" href={`/car-rental/${slug}-airport/`}>
