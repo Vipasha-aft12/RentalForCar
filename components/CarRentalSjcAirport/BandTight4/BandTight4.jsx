@@ -10,8 +10,8 @@ export default function BandTight4() {
            <p className="card-note" style={{margin: '8px 0 18px'}}>
             Tell the desk your dates and the class you want and we will check what our rental partners have at SJC Airport, with the deposit and the counter balance quoted separately.
           </p>
-           <a className="btn btn-primary" href="tel:+18557619153">
-            Call (855) 761-9153
+           <a className="btn btn-primary" href="tel:+18778516014">
+            Call (877) 851-6014
             <svg className="arrow" width="18" height="18" aria-hidden="true">
               <use href="#i-car" xlinkHref="#i-car"></use>
             </svg>

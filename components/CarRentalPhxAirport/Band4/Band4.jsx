@@ -13,8 +13,8 @@ export default function Band4() {
           New booking, a change or a cancellation — talk to the desk, or search your dates and finish it online.
         </p>
          <div style={{display: 'flex', gap: '10px', justifyContent: 'center', flexWrap: 'wrap'}}>
-           <a className="btn btn-primary" href="tel:+18557619153">
-            Call (855) 761-9153
+           <a className="btn btn-primary" href="tel:+18778516014">
+            Call (877) 851-6014
           </a>
            <a className="btn btn-ghost" href="/book/" data-link="">
             Search online

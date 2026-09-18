@@ -204,8 +204,8 @@ export default function BandTight() {
               </button>
                <p className="card-note" style={{margin: '14px 0 0', textAlign: 'center'}}>
                 You pick the vehicle at the next step. Prefer to talk? Call
-                <a href="tel:+18557619153" style={{fontWeight: '600', textDecoration: 'underline'}}>
-                  (855) 761-9153
+                <a href="tel:+18778516014" style={{fontWeight: '600', textDecoration: 'underline'}}>
+                  (877) 851-6014
                 </a>
                 .
               </p>

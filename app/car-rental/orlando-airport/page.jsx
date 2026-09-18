@@ -10,7 +10,7 @@ export const metadata = {
   openGraph: { title: "Car Rental at Orlando Airport (MCO) | RentalForCar", description: "Rent a car at Orlando International. On-site rental counters, terminal layout, the toll road route to the theme parks and what size car families should book.", url: "https://www.rentalforcar.com/car-rental/orlando-airport/", siteName: 'RentalForCar', type: 'website' },
 };
 
-const jsonLd = {"@context": "https://schema.org", "@type": "Organization", "@id": "https://www.rentalforcar.com/#org", "name": "RentalForCar", "url": "https://www.rentalforcar.com/", "description": "RentalForCar is an independent car rental reservation service. Vehicles are supplied and operated by third-party rental companies.", "telephone": "+1-855-761-9153", "contactPoint": {"@type": "ContactPoint", "telephone": "+1-855-761-9153", "contactType": "reservations", "areaServed": "US", "availableLanguage": ["English"]}};
+const jsonLd = {"@context": "https://schema.org", "@type": "Organization", "@id": "https://www.rentalforcar.com/#org", "name": "RentalForCar", "url": "https://www.rentalforcar.com/", "description": "RentalForCar is an independent car rental reservation service. Vehicles are supplied and operated by third-party rental companies.", "telephone": "+1-877-851-6014", "contactPoint": {"@type": "ContactPoint", "telephone": "+1-877-851-6014", "contactType": "reservations", "areaServed": "US", "availableLanguage": ["English"]}};
 
 export default function CarRentalOrlandoAirportPage() {
   return (
