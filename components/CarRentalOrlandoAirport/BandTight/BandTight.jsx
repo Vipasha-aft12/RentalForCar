@@ -1,7 +1,7 @@
 import './BandTight.css';
 export default function BandTight() {
   return (
-    <section className="band-tight" style={{paddingTop: '0'}}>
+    <section id="search" className="band-tight" style={{paddingTop: '0'}}>
        <div className="wrap">
          <div className="detail-layout">
            <div className="detail-main">

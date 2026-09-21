@@ -1,0 +1,122 @@
+/* CallModal — mobile-only call popup. Self-contained (no theme/sprite dependency)
+   so it works on both the airport pages and the car-rental company pages.
+   Hidden entirely on desktop (>= 768px). */
+
+/* ---- Floating trigger (mobile only) ---- */
+.cmx-fab {
+  display: none;
+}
+@media (max-width: 767px) {
+  .cmx-fab {
+    position: fixed;
+    right: 16px;
+    bottom: 108px; /* clears the existing bottom call bar (.mbar) */
+    z-index: 70;
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    padding: 12px 18px;
+    border: 0;
+    border-radius: 999px;
+    background: var(--lime, #C7F36B);
+    color: var(--midnight, #101820);
+    font: 700 15px/1 var(--f-b, system-ui, sans-serif);
+    box-shadow: 0 10px 26px -10px rgba(16, 24, 32, 0.55);
+    cursor: pointer;
+  }
+  .cmx-fab svg { flex: none; }
+}
+
+/* ---- Backdrop + dialog (mobile only) ---- */
+.cmx-backdrop { display: none; }
+@media (max-width: 767px) {
+  .cmx-backdrop:not([hidden]) {
+    display: flex;
+    position: fixed;
+    inset: 0;
+    z-index: 80;
+    align-items: flex-end;
+    justify-content: center;
+    background: rgba(16, 24, 32, 0.55);
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    padding: 0;
+  }
+}
+/* Desktop: never show, even if state is open */
+@media (min-width: 768px) {
+  .cmx-backdrop { display: none !important; }
+  .cmx-fab { display: none !important; }
+}
+
+.cmx {
+  position: relative;
+  width: 100%;
+  max-width: 460px;
+  background: var(--white, #fff);
+  border-radius: 20px 20px 0 0;
+  padding: 22px 18px calc(20px + env(safe-area-inset-bottom, 0px));
+  box-shadow: 0 -10px 40px rgba(16, 24, 32, 0.3);
+  max-height: 92vh;
+  overflow-y: auto;
+}
+
+.cmx-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 34px;
+  height: 34px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--mint-soft, #f1f5e8);
+  color: var(--ink, #101820);
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.cmx-head { display: flex; gap: 13px; align-items: flex-start; padding-right: 34px; }
+.cmx-mark {
+  flex: none; width: 46px; height: 46px; border-radius: 13px;
+  background: var(--midnight, #101820); color: var(--lime, #C7F36B);
+  display: inline-flex; align-items: center; justify-content: center;
+}
+.cmx-title { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.cmx-title h2 { margin: 0; font: 700 1.15rem/1.1 var(--f-d, system-ui, sans-serif); color: var(--ink, #101820); }
+.cmx-live {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-size: 0.72rem; font-weight: 600; color: var(--green-ink, #4A6030);
+}
+.cmx-live i { width: 7px; height: 7px; border-radius: 50%; background: #37b24d; display: inline-block; }
+.cmx-sub { margin: 4px 0 0; font-size: 0.9rem; color: var(--muted, #5A6169); }
+
+.cmx-points {
+  display: flex; flex-wrap: wrap; gap: 8px 16px; margin: 16px 0;
+  font-size: 0.82rem; color: var(--charcoal, #252A2E);
+}
+.cmx-points b { font-weight: 600; }
+.cmx-points span::before { content: "✓"; color: var(--green-ink, #4A6030); font-weight: 800; margin-right: 6px; }
+
+.cmx-lede { margin: 0 0 16px; font-size: 0.92rem; line-height: 1.55; color: var(--body, #2b333a); }
+
+.cmx-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 16px; }
+.cmx-opt {
+  display: flex; align-items: center; justify-content: center; text-align: center;
+  min-height: 50px; padding: 10px 12px;
+  border: 1px solid var(--line, #E2E6DD); border-radius: 12px;
+  background: var(--white, #fff); color: var(--ink, #101820);
+  font-weight: 600; font-size: 0.9rem; text-decoration: none;
+}
+.cmx-opt:active { background: var(--mint-soft, #f1f5e8); }
+
+.cmx-callrow { border-top: 1px solid var(--line, #E2E6DD); padding-top: 16px; }
+.cmx-btn {
+  display: flex; align-items: center; justify-content: center; gap: 10px;
+  width: 100%; min-height: 54px; border-radius: 12px;
+  background: var(--lime, #C7F36B); color: var(--midnight, #101820);
+  font: 700 1.05rem/1 var(--f-b, system-ui, sans-serif); text-decoration: none;
+}
+.cmx-num { font-family: var(--f-n, ui-monospace, monospace); }
+.cmx-fine { margin: 12px 0 0; font-size: 0.72rem; line-height: 1.5; color: var(--muted, #5A6169); }
+.cmx-fine a { color: var(--green-ink, #4A6030); }

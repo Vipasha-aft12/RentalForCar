@@ -31,13 +31,13 @@ export default function PageHead() {
             </p>
              <div style={{marginTop: '22px', display: 'flex', gap: '10px', flexWrap: 'wrap'}}>
                <a className="btn btn-primary" href="tel:+18778516014" data-link="">
-                Check availability
                 <svg className="arrow" width="18" height="18" aria-hidden="true">
-                  <use href="#i-car" xlinkHref="#i-car"></use>
+                  <use href="#i-phone" xlinkHref="#i-phone"></use>
                 </svg>
+                Call +1 (877) 851-6014
               </a>
-               <a className="btn btn-ghost" href="tel:+18778516014">
-                Call (877) 851-6014
+               <a className="btn btn-ghost" href="#search" data-link="">
+                Find a car
               </a>
              </div>
              <ul className="trust-row" style={{marginTop: '24px'}}>
@@ -61,7 +61,7 @@ export default function PageHead() {
               </li>
              </ul>
            </div>
-           <aside className="detail-aside" data-book-panel="">
+           <aside id="search" className="detail-aside" data-book-panel="">
              <div className="book-card" data-location-book="" data-location="Jacksonville International Airport (JAX)">
                <p className="eyebrow">
                 Book at JAX

@@ -1,5 +1,6 @@
 import { getPageMeta } from '@/lib/seo';
 import JsonLd from '@/components/common/JsonLd/JsonLd';
+import CallModal from '@/components/common/CallModal/CallModal';
 import Section1 from '@/components/CarRentalDollar/Section1/Section1';
 import Hero from '@/components/CarRentalDollar/Hero/Hero';
 import WhatRentalforcarIsAndIsnT from '@/components/CarRentalDollar/WhatRentalforcarIsAndIsnT/WhatRentalforcarIsAndIsnT';
@@ -21,6 +22,7 @@ export default function CarRentalDollarPage() {
       <AboutDollarAndRentalforcar />
       <OneCallNoCounterSurprises />
       <JsonLd data={jsonLd} />
+      <CallModal />
     </main>
   );
 }

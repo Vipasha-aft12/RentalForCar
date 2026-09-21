@@ -25,7 +25,7 @@ export default function PageHead() {
           LA is not one city but a dozen loosely connected ones, and the car is how you connect them. Renting here is less a choice than a prerequisite.
         </p>
          <div style={{marginTop: '24px', display: 'flex', gap: '10px', flexWrap: 'wrap'}}>
-          <a className="btn btn-primary" href="tel:+18778516014" data-link="">
+          <a className="btn btn-primary" href="/book/" data-link="">
             Find a car in Los Angeles
             <svg className="arrow" width="18" height="18" aria-hidden="true">
               <use href="#i-car" xlinkHref="#i-car"></use>

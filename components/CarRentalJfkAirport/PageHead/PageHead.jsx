@@ -26,14 +26,14 @@ export default function PageHead() {
         </p>
          <div style={{marginTop: '24px', display: 'flex', gap: '10px', flexWrap: 'wrap'}}>
           <a className="btn btn-primary" href="tel:+18778516014" data-link="">
-            Find a car at JFK
-            <svg className="arrow" width="18" height="18" aria-hidden="true">
-              <use href="#i-car" xlinkHref="#i-car"></use>
-            </svg>
-          </a>
-          <a className="btn btn-ghost" href="/car-rental/new-york/" data-link="">
-            Renting in the city instead
-          </a>
+                <svg className="arrow" width="18" height="18" aria-hidden="true">
+                  <use href="#i-phone" xlinkHref="#i-phone"></use>
+                </svg>
+                Call +1 (877) 851-6014
+              </a>
+          <a className="btn btn-ghost" href="#search" data-link="">
+                Find a car
+              </a>
         </div>
        </div>
      </section>

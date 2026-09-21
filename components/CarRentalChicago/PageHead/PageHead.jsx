@@ -25,7 +25,7 @@ export default function PageHead() {
           Downtown Chicago is well served by the L and by walking. The car earns its keep on the drives out — along the lake, into Wisconsin, and across to Michigan.
         </p>
          <div style={{marginTop: '24px', display: 'flex', gap: '10px', flexWrap: 'wrap'}}>
-          <a className="btn btn-primary" href="tel:+18778516014" data-link="">
+          <a className="btn btn-primary" href="/book/" data-link="">
             Find a car in Chicago
             <svg className="arrow" width="18" height="18" aria-hidden="true">
               <use href="#i-car" xlinkHref="#i-car"></use>

@@ -25,7 +25,7 @@ export default function PageHead() {
           You can survive the Strip without a car. You cannot see anything around it without one — and what surrounds Las Vegas is the best reason to be there.
         </p>
          <div style={{marginTop: '24px', display: 'flex', gap: '10px', flexWrap: 'wrap'}}>
-          <a className="btn btn-primary" href="tel:+18778516014" data-link="">
+          <a className="btn btn-primary" href="/book/" data-link="">
             Find a car in Las Vegas
             <svg className="arrow" width="18" height="18" aria-hidden="true">
               <use href="#i-car" xlinkHref="#i-car"></use>

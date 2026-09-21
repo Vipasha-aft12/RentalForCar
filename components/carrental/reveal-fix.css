@@ -5,3 +5,6 @@
 .crx .media img,
 .crx .hero-still,
 .crx .hero-video { opacity: 1 !important; }
+
+/* Anchor offset so #search is not hidden behind the sticky header */
+.crx #search{scroll-margin-top:90px}
