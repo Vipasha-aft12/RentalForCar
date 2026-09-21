@@ -30,7 +30,7 @@ export default function PageHead() {
               DFW runs one of the better rental operations in the country: a single Rental Car Center with every company under one roof, and a shuttle that actually turns up.
             </p>
              <div style={{marginTop: '22px', display: 'flex', gap: '10px', flexWrap: 'wrap'}}>
-               <a className="btn btn-primary" href="/book/" data-link="">
+               <a className="btn btn-primary" href="tel:+18778516014" data-link="">
                 Check availability
                 <svg className="arrow" width="18" height="18" aria-hidden="true">
                   <use href="#i-car" xlinkHref="#i-car"></use>

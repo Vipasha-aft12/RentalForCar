@@ -25,7 +25,7 @@ export default function PageHead() {
           MCO is one of the easiest large airports in America to collect a car at — most counters are inside the terminal, with the cars a level below.
         </p>
          <div style={{marginTop: '24px', display: 'flex', gap: '10px', flexWrap: 'wrap'}}>
-          <a className="btn btn-primary" href="/book/" data-link="">
+          <a className="btn btn-primary" href="tel:+18778516014" data-link="">
             Find a car at MCO
             <svg className="arrow" width="18" height="18" aria-hidden="true">
               <use href="#i-car" xlinkHref="#i-car"></use>

@@ -30,7 +30,7 @@ export default function PageHead() {
               Sky Harbor connects its Rental Car Center to the terminals by train rather than bus, which makes it one of the more civilised collections in the southwest. And Arizona has almost no tolls.
             </p>
              <div style={{marginTop: '22px', display: 'flex', gap: '10px', flexWrap: 'wrap'}}>
-               <a className="btn btn-primary" href="/book/" data-link="">
+               <a className="btn btn-primary" href="tel:+18778516014" data-link="">
                 Check availability
                 <svg className="arrow" width="18" height="18" aria-hidden="true">
                   <use href="#i-car" xlinkHref="#i-car"></use>

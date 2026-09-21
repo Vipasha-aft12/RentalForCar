@@ -154,3 +154,6 @@ b{
     font-size: 1rem !important ;
   }
 }
+.prose a{
+  margin: auto 4px;
+}

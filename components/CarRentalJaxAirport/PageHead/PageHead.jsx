@@ -30,7 +30,7 @@ export default function PageHead() {
               One of the easiest rental collections in Florida: the cars are in the garage across from the terminal, so you walk to them. No shuttle, no waiting.
             </p>
              <div style={{marginTop: '22px', display: 'flex', gap: '10px', flexWrap: 'wrap'}}>
-               <a className="btn btn-primary" href="/book/" data-link="">
+               <a className="btn btn-primary" href="tel:+18778516014" data-link="">
                 Check availability
                 <svg className="arrow" width="18" height="18" aria-hidden="true">
                   <use href="#i-car" xlinkHref="#i-car"></use>

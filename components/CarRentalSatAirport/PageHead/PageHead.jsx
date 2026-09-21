@@ -30,7 +30,7 @@ export default function PageHead() {
               A small, quick airport with the rental cars close to the terminals and almost no tolls in the region. One of the least complicated collections in Texas.
             </p>
              <div style={{marginTop: '22px', display: 'flex', gap: '10px', flexWrap: 'wrap'}}>
-               <a className="btn btn-primary" href="/book/" data-link="">
+               <a className="btn btn-primary" href="tel:+18778516014" data-link="">
                 Check availability
                 <svg className="arrow" width="18" height="18" aria-hidden="true">
                   <use href="#i-car" xlinkHref="#i-car"></use>

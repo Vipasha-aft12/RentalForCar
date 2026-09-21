@@ -30,7 +30,7 @@ export default function PageHead() {
               Austin has grown faster than its airport, and the rental operation shows it. Collection is short but the queues are real at peak — and the drive into town has got slower every year.
             </p>
              <div style={{marginTop: '22px', display: 'flex', gap: '10px', flexWrap: 'wrap'}}>
-               <a className="btn btn-primary" href="/book/" data-link="">
+               <a className="btn btn-primary" href="tel:+18778516014" data-link="">
                 Check availability
                 <svg className="arrow" width="18" height="18" aria-hidden="true">
                   <use href="#i-car" xlinkHref="#i-car"></use>

@@ -25,7 +25,7 @@ export default function PageHead() {
           MIA has one of the better rental setups in the country — all companies under one roof, connected to the terminal by a short automated train.
         </p>
          <div style={{marginTop: '24px', display: 'flex', gap: '10px', flexWrap: 'wrap'}}>
-          <a className="btn btn-primary" href="/book/" data-link="">
+          <a className="btn btn-primary" href="tel:+18778516014" data-link="">
             Find a car at MIA
             <svg className="arrow" width="18" height="18" aria-hidden="true">
               <use href="#i-car" xlinkHref="#i-car"></use>
