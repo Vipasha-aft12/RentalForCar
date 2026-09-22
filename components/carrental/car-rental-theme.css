@@ -82,9 +82,9 @@
 .crx .btn-ghost:hover, .crx .btn-ghost:focus-visible{color:var(--ivory)}
 .crx .dark .btn-ghost::before{background:var(--lime)}
 .crx .dark .btn-ghost:hover, .crx .dark .btn-ghost:focus-visible{color:var(--midnight)}
-.crx .btn-primary{background:var(--lime);color:var(--midnight);box-shadow:0 10px 24px -14px rgba(16,24,32,.6)}
+.crx .btn-primary{background:var(--lime);color:var(--midnight);box-shadow:0 10px 24px -14px rgba(16,24,32,.6); width: 100%; border-radius: 10px;}
 .crx .btn-dark{background:var(--midnight);color:var(--ivory)}
-.crx .btn-ghost{background:transparent;color:var(--ink);border-color:var(--line)}
+.crx .btn-ghost{background:transparent;color:var(--ink);border-color:var(--line); width: 100%; border-radius: 10px;}
 .crx .btn-ghost:hover{border-color:var(--midnight)}
 .crx .dark .btn-ghost{color:var(--ivory);border-color:var(--line-dark)}
 .crx .dark .btn-ghost:hover{border-color:var(--sage)}

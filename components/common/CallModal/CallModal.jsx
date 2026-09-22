@@ -5,6 +5,7 @@ import './CallModal.css';
 
 const PHONE_DISPLAY = '(877) 851-6014';
 const PHONE_HREF = 'tel:+18778516014';
+const AUTO_OPEN_MS = 8000; // auto-open delay after page load (mobile only)
 
 const OPTIONS = [
   { intent: 'new-booking', label: 'New booking' },
@@ -16,6 +17,15 @@ const OPTIONS = [
 export default function CallModal() {
   const [open, setOpen] = useState(false);
   const closeRef = useRef(null);
+
+  // Auto-open on mobile after a short delay, every page load.
+  useEffect(() => {
+    const isMobile = typeof window !== 'undefined'
+      && window.matchMedia && window.matchMedia('(max-width: 767px)').matches;
+    if (!isMobile) return;
+    const t = setTimeout(() => setOpen(true), AUTO_OPEN_MS);
+    return () => clearTimeout(t);
+  }, []);
 
   useEffect(() => {
     if (!open) return;
